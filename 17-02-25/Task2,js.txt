@@ -1,0 +1,18 @@
+function displayFactors(number) {
+    if (number <= 0) {
+        console.log("Please enter a positive number.");
+        return;
+    }
+  
+    let factors = [];
+    for (let i = 1; i <= number; i++) {
+        if (number % i === 0) {
+            factors.push(i);  // If i is a factor of number, add it to the factors array
+        }
+    }
+  
+    console.log(`The factors of ${number} are: ${factors.join(", ")}`);
+}
+
+// Call the function with a number (for example, 28)
+displayFactors(28);
