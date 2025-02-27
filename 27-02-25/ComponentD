@@ -1,0 +1,13 @@
+import React from 'react';
+import ComponentE from './ComponentE';
+
+const ComponentD = () => {
+  return (
+    <div>
+      <h5>Component D</h5>
+      <ComponentE />
+    </div>
+  );
+};
+
+export default ComponentD;
