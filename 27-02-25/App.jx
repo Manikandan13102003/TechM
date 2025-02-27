@@ -1,0 +1,13 @@
+import React from 'react';
+import ComponentA from './components/ComponentA';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Nested Components Example</h1>
+      <ComponentA />
+    </div>
+  );
+}
+
+export default App;
