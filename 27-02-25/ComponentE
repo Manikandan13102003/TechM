@@ -1,0 +1,12 @@
+import React from 'react';
+
+const ComponentE = () => {
+  return (
+    <div>
+      <h6>Component E</h6>
+      <p>This is the innermost component!</p>
+    </div>
+  );
+};
+
+export default ComponentE;
