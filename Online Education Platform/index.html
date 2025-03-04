@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Education Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="courses.js" defer></script>  <!-- Ensure courses.js is included -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1><center>Online Education Platform</center></h1>  <!-- Platform name added here -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="enrollment.html">Enroll</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <div class="carousel-item">Featured Course: HTML for Beginners</div>
+            <div class="carousel-item">Featured Course: Advanced JavaScript</div>
+            <div class="carousel-item">Featured Course: Web Design Principles</div>
+        </section>
+
+        <div class="course-categories">
+            <button class="tab-button" onclick="showCategory('programming')">Programming</button>
+            <button class="tab-button" onclick="showCategory('design')">Design</button>
+        </div>
+
+        <div id="programming" class="tab-content">
+            <h3>Programming Courses</h3>
+            <!-- Programming courses will be dynamically populated here -->
+        </div>
+        <div id="design" class="tab-content">
+            <h3>Design Courses</h3>
+            <!-- Design courses will be dynamically populated here -->
+        </div>
+
+        <div id="course-list" class="course-list">
+            <!-- Courses will be dynamically loaded here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Education Platform</p>
+    </footer>
+</body>
+</html>

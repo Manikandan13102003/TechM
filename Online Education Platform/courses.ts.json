@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "HTML for Beginners",
+        "description": "Learn the basics of HTML to build your first website."
+    },
+    {
+        "id": 2,
+        "name": "Advanced JavaScript",
+        "description": "Deep dive into JavaScript and its advanced concepts."
+    },
+    {
+        "id": 3,
+        "name": "Web Design Principles",
+        "description": "Learn about layout, typography, color theory, and user experience design."
+    }
+]
